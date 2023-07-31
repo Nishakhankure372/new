@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+        background-color: rgb(253, 247, 237);
+    }
+     .amz {
+            background-color: rgb(188, 239, 239);
+         border: 2px solid rgb(73, 59, 59);
+         font-size: 30px;
+         font-weight: 900;
+         border: none;
+        }
+        .main {
+        display: grid;
+        grid-template-columns:  repeat(8, minmax(160px, 1fr));
+        grid-auto-rows: 200px 120px 200px 200px 200px;
+        gap: 20px;
+      }
+      #box1 {
+         grid-row: 1/3;
+         grid-column: 1/9;
+      }
+
+      #box2 {grid-row: 3/5;
+         grid-column: 1/3;
+         background-color: white;
+        }
+        #box3 {
+         grid-row: 3/5;
+          grid-column: 3/5;
+          background-color: white;}
+          #imp{
+            width: 330px;
+            margin-left: 15px;
+          }
+          #imp2{
+            width: 330px;
+            margin-left: 15px;
+          }
+        #box4{
+            grid-row: 3/5;
+          grid-column: 5/7;
+          background-color: white;
+        }
+        #box5 {
+         grid-row: 3/4;
+          grid-column: 7/9;
+          padding:17px 0px 0px 17px;
+          background-color: white;}
+          
+        #box5 button {
+        margin-left: 20px;
+        padding: 8px;
+        width: 290px;
+        border-radius: 6px;
+        border: none;
+        background-color: rgb(238, 176, 42);
+      }
+      #box6 {
+         grid-row: 4/5;
+          grid-column: 7/9;
+          background-color:white}
+     #box7 {
+        grid-row: 5/7;
+        grid-column: 1/3;
+        background-color: white;
+      }
+      #box8{
+         grid-row: 5/5;
+          grid-column: 3/5;
+          background-color: white;}
+      #box9 {
+        grid-row: 5/7 ;
+        grid-column: 5/7;
+        background-color: aliceblue;
+      }  
+      #box10 {
+        grid-row: 5/7;
+        grid-column: 7/9;
+        background-color: rgb(155, 200, 240);
+      } 
+      #box11 {
+        grid-row: 7/9;
+        grid-column: 1/9;
+        background-color: rgb(165, 203, 237);
+      } 
+      #box12 {
+        grid-row: 9/9;
+        grid-column: 1/9;
+        background-color: rgb(227, 237, 246);
+      } 
+
+        h3 {
+        font-size: 22px;
+        margin-left: 15px;
+      }
+       #img1 {
+        margin-left: 15px;
+        width: 150px;
+      }
+       #img2 {
+        width: 150px;
+        padding-left: 10px;
+      }
+      #img3 {
+        width: 150px;
+        padding-left: 15px;
+        padding-top: 60px;
+      }
+      #img4 {
+        width: 150px;
+        padding-left: 10px;
+      }
+      
+      #kt1{
+        width: 330px;
+        margin-left: 15px;
+      height: 120px;}
+      
+
+        #pt1{
+        width: 150px;
+        margin-left: 15px;}
+      #pt2{
+        width: 150px;
+        padding-left: 10px;}
+      #pt3{
+        width: 150px;
+        padding-left: 15px;
+        padding-top: 60px;}
+      #pt4{
+        width: 150px;
+        padding-left: 10px;}
+
+        #ok1{
+        width: 150px;
+        margin-left: 15px;}
+      #ok2{
+        width: 150px;
+        padding-left: 10px;}
+      #ok3{
+        width: 150px;
+        padding-left: 15px;
+        padding-top: 60px;}
+      #ok4{
+        width: 150px;
+        padding-left: 10px;}
+      #bx9{
+        width: 320px;
+        height: 300px;
+        margin-left: 15px;
+      }  
+      #cc1{
+        width: 330px;
+        height: 300px;
+        margin-left: 15px;
+      }
+
+    </style>
+</head>
+<body>
+    <button>Amazon MiniTv</button>
+    <button>Sell</button>
+    <button>best seller</button>
+    <button>todays deals</button>
+    <button>mobail</button>
+    <button>customer</button>
+    <button>Ellectronics</button>
+    <button>Home and kitchen</button>
+    <button>amazon pay</button>
+
+    <box class="main">
+        <box class="amz" id="box1">
+            <img src= "https://m.media-amazon.com/images/I/512y7QneEuL._SR1500,600_.jpg"alt="">
+        </box>
+        <box class="amz" id="box2">
+            <h3>Great summer sale</h3>
+            <img id="imp" src="https://images-eu.ssl-images-amazon.com/images/G/31/IN-Events/MayArt23/GW_PC-CC_1X._SY304_CB589490148_.jpg" alt="">
+        </box>
+        <box class="amz" id="box3">
+            <h3>smarphones suit you budget</h3>
+            <img id="img1" src="https://images-eu.ssl-images-amazon.com/images/G/31/IN-Events/MayArt23/GW_PC-CC_1X._SY304_CB589490148_.jpg" alt="">
+            <img id="img2" src="https://images-eu.ssl-images-amazon.com/images/G/31/IN-Events/MayArt23/GW_PC-CC_1X._SY304_CB589490148_.jpg" alt="">
+            <img id="img3" src="https://images-eu.ssl-images-amazon.com/images/G/31/IN-Events/MayArt23/GW_PC-CC_1X._SY304_CB589490148_.jpg" alt="">
+            <img id="img4" src="https://images-eu.ssl-images-amazon.com/images/G/31/IN-Events/MayArt23/GW_PC-CC_1X._SY304_CB589490148_.jpg" alt="">
+        </box>
+        <box class="amz" id="box4">
+            <h3>medicines</h3>
+            <img id="imp2" src="https://images-eu.ssl-images-amazon.com/images/G/31/IN-Events/MayArt23/GW_PC-CC_1X._SY304_CB589490148_.jpg" alt="">
+
+
+        </box>
+        <box class="amz" id="box5">
+            <h3>Sign in for your best experience </h3>
+            <button>sign in securely</button>
+        </box>
+        <box class="amz" id="box6">
+            <h3>home kitchen or more</h3>
+            <img id="kt1" src="https://images-eu.ssl-images-amazon.com/images/G/31/IN-Events/MayArt23/GW_PC-CC_1X._SY304_CB589490148_.jpg" alt="">
+        </box>
+        <box class="amz" id="box7">
+            <h3>pocket friendlly fasion</h3>
+            <img id="pt1" src="https://images-eu.ssl-images-amazon.com/images/G/31/IN-Events/MayArt23/GW_PC-CC_1X._SY304_CB589490148_.jpg" alt="">
+            <img id="pt2" src="https://images-eu.ssl-images-amazon.com/images/G/31/IN-Events/MayArt23/GW_PC-CC_1X._SY304_CB589490148_.jpg" alt="">
+            <img id="pt3" src="https://images-eu.ssl-images-amazon.com/images/G/31/IN-Events/MayArt23/GW_PC-CC_1X._SY304_CB589490148_.jpg" alt="">
+            <img id="pt4" src="https://images-eu.ssl-images-amazon.com/images/G/31/IN-Events/MayArt23/GW_PC-CC_1X._SY304_CB589490148_.jpg" alt="">
+        </box>
+        <box class="amz" id="box8">
+            <h3>outdoor and kids toys</h3>
+            <img id="ok1" src="https://images-eu.ssl-images-amazon.com/images/G/31/IN-Events/MayArt23/GW_PC-CC_1X._SY304_CB589490148_.jpg" alt="">
+            <img id="ok2" src="https://images-eu.ssl-images-amazon.com/images/G/31/IN-Events/MayArt23/GW_PC-CC_1X._SY304_CB589490148_.jpg" alt="">
+            <img id="ok3" src="https://images-eu.ssl-images-amazon.com/images/G/31/IN-Events/MayArt23/GW_PC-CC_1X._SY304_CB589490148_.jpg" alt="">
+            <img id="ok4" src="https://images-eu.ssl-images-amazon.com/images/G/31/IN-Events/MayArt23/GW_PC-CC_1X._SY304_CB589490148_.jpg" alt="">
+        </box>
+        <box class="amz" id="box9">
+          <h3 style="font-size: 25px;padding-left: 20px;"> Starting ₹199 | Start your fitness journey</h3>
+          <img  id="bx9" src="https://images-eu.ssl-images-amazon.com/images/G/31/IN-Events/MayArt23/GW_PC-CC_1X._SY304_CB589490148_.jpg" alt="">
+        </box>
+        <box class="amz" id="box10">
+          <h3>Upto 50% off | Clearance store and clevage</h3>
+          <img  id="cc1" src="https://images-eu.ssl-images-amazon.com/images/G/31/IN-Events/MayArt23/GW_PC-CC_1X._SY304_CB589490148_.jpg" alt="">
+        </box>
+        
+        <box class="amz" id="box11">
+          <h1 style="font-size: 25px; padding-left: 20px;"> Today's Deal <i style="color: blue;">see all deals</i></h1>
+          <img style="width: 200px; padding-left: 30px;height: 250px;" src="https://images-eu.ssl-images-amazon.com/images/G/31/IN-Events/MayArt23/GW_PC-CC_1X._SY304_CB589490148_.jpg" alt="">
+          <img style="width: 200px;padding-left: 35px;height: 250px;" src="https://images-eu.ssl-images-amazon.com/images/G/31/IN-Events/MayArt23/GW_PC-CC_1X._SY304_CB589490148_.jpg" alt="">
+          <img style="width: 200px;padding-left: 35px;height: 250px;" src="https://images-eu.ssl-images-amazon.com/images/G/31/IN-Events/MayArt23/GW_PC-CC_1X._SY304_CB589490148_.jpg" alt="">
+          <img style="width: 200px;padding-left: 35px;height: 250px;" src="https://images-eu.ssl-images-amazon.com/images/G/31/IN-Events/MayArt23/GW_PC-CC_1X._SY304_CB589490148_.jpg" alt="">
+          <img style="width: 200px;padding-left: 35px;height: 250px;" src="https://images-eu.ssl-images-amazon.com/images/G/31/IN-Events/MayArt23/GW_PC-CC_1X._SY304_CB589490148_.jpg" alt="">
+          <img style="width: 200px;padding-left: 35px;height: 250px;" src="https://images-eu.ssl-images-amazon.com/images/G/31/IN-Events/MayArt23/GW_PC-CC_1X._SY304_CB589490148_.jpg" alt="">
+        </box>;
+        <box class="amz" id="box12">
+          <h1 style="font-size: 25px; padding-left: 20px;">festival were for small bussiness <i style="color: blue;">see all deals</i></h1>
+          <img style="width: 200px; padding-left: 36px;" src="https://images-eu.ssl-images-amazon.com/images/G/31/IN-Events/MayArt23/GW_PC-CC_1X._SY304_CB589490148_.jpg" alt="">
+          <img style="width: 200px;padding-left: 36px;" src="https://images-eu.ssl-images-amazon.com/images/G/31/IN-Events/MayArt23/GW_PC-CC_1X._SY304_CB589490148_.jpg" alt="">
+          <img style="width: 200px;padding-left: 36px" src="https://images-eu.ssl-images-amazon.com/images/G/31/IN-Events/MayArt23/GW_PC-CC_1X._SY304_CB589490148_.jpg" alt="">
+          <img style="width: 200px;padding-left: 36px" src="https://images-eu.ssl-images-amazon.com/images/G/31/IN-Events/MayArt23/GW_PC-CC_1X._SY304_CB589490148_.jpg" alt="">
+          <img style="width: 200px;padding-left: 36px" src="https://images-eu.ssl-images-amazon.com/images/G/31/IN-Events/MayArt23/GW_PC-CC_1X._SY304_CB589490148_.jpg" alt="">
+          <img style="width: 200px;padding-left: 36px" src="https://images-eu.ssl-images-amazon.com/images/G/31/IN-Events/MayArt23/GW_PC-CC_1X._SY304_CB589490148_.jpg" alt="">
+        </box>
+
+        
+    </box>
+
+
+</body>
+</html>
